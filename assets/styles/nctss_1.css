@@ -1,11 +1,75 @@
-h1, nav {
-    margin-left: 110px;
+.sub-title {
+    background-color:royalblue;
+    color: white;
+    border: 4px solid #0000cd;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+    margin-top: -5px;
+    font-size: 30px;
 }
 
-h2, p {
-    margin-left: 130px;
+p {
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.vertical-nav {
+    float: left;
+    font-size: 25px;
+    margin: 0px;
+    margin-left: -20px;
 }
 
 .indent {
-    margin-left: 150px;
+    margin-left:300px;
+    font-size: 20px;
 }
+
+img.small-picture {
+    width: 100px;
+    float: left;
+}
+
+img.main-picture {
+    width: 100%;
+    height: 450px;
+    border: 4px solid #0000cd;
+}
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    top: 430px;
+    left: 1270px;
+    border: 4px solid #0000cd;
+}
+
+
