@@ -1,0 +1,72 @@
+.logo {
+    float: left;
+    width: 100px;
+}
+
+.mainTitle {
+    font-size: 60px;
+    font-family: Arial;
+    margin-top: -10px;
+}
+
+.container {
+    position: relative;
+}
+
+.main-picture {
+    width: 100%;
+    height: 450px;
+    margin-top: -30px;
+}
+
+.right-top-nav {
+    position: absolute;
+    top: -50px;
+    left: 1000px;
+    font-size: 25px;
+}
+
+.right-top-nav a:active {
+    background-color: green;
+}
+
+.right-top-nav a:hover {
+    background-color: #555;
+}
+
+.right-top-nav a {
+    color: white;
+    font-size: 30px;
+    background-color: royalblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid #000000
+}
+
+.sub-title {
+    border: 4px solid #000000;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: -5px;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+p {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.indent {
+    margin-left:250px;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 200px;
+    font-size: 25px;
+}
