@@ -64,8 +64,9 @@ p {
 }
 
 .indent {
-    margin-left:250px;
+    margin-left:230px;
     font-size: 20px;
+    margin-top: -15px
 }
 
 h3 {
