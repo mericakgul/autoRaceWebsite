@@ -19,9 +19,11 @@ h3 {
 }
 
 table {
+    width: 100%;
+    table-layout: fixed;
     text-align: left;
-    border-spacing: 100px 0;
-    margin-left: -100px; /*I put this to be able to place the table on the left of the page. I have 90px from border-spacing so I wanted to compensate it */
+    border-spacing: 60px 0; /* if I increase this value the table layout is broken.*/
+    margin-left: -60px; /*I put this to be able to place the table on the left of the page. I have 90px from border-spacing so I wanted to compensate it */
     margin-bottom: 30px;
 }
 
@@ -29,7 +31,7 @@ th {
     border-bottom: 1px solid #cecfd5;
 }
 
-.td {
+td {
     padding-top: 3px;
 }
 
