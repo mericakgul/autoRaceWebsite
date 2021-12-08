@@ -1,0 +1,51 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.main-title {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+table {
+    text-align: left;
+    border-spacing: 100px 0;
+    margin-left: -100px; /*I put this to be able to place the table on the left of the page. I have 90px from border-spacing so I wanted to compensate it */
+    margin-bottom: 30px;
+}
+
+th {
+    border-bottom: 1px solid #cecfd5;
+}
+
+.td {
+    padding-top: 3px;
+}
+
+.date {
+    vertical-align: top;
+    text-align: center;
+}
+
+.locations {
+    border: 0;
+}
+
+#phone {
+    float: left;
+}
+
+#email {
+    float: right;
+}
