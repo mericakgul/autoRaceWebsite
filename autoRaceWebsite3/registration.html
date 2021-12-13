@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="assets/styles/registration.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="show_data.html" method="get">
+        <div class="identity">
+            <label for="firstname">First Name&#58;
+            <input type="text" name="firstname" id="firstname" placeholder="Meric">
+            </label>
+            <label for="lastname">Last Name&#58;
+            <input type="text" name="lastname" id="lastname" placeholder="Akgul">
+            </label>
+        </div>
+
+        <div class="text-fields">
+            <label for="address">Street Address&#58;
+                <input type="text" name="address" id="address" placeholder="Heemraadstraat 5">
+            </label>
+            <label for="city">City&#58;
+                <input type="text" name="city" id="city" placeholder="Amsterdam">
+            </label>
+            <label for="zipcode">Zip Code&#58;
+                <input type="text" name="zipcode" id="zipcode" placeholder="2584 GG">
+            </label>
+            <label for="age">Age&#58;
+                <input type="text" name="age" id="age" placeholder="32">
+            </label>
+        </div>
+
+        <div class="gender">
+            <span>Gender&#58;</span>
+            <label for="female">
+                <input type="radio" name="gender" id="female" value="Female">
+                Female
+            </label>
+            <label for="male">
+                <input type="radio" name="gender" id="male" value="Male">
+                Male
+            </label>
+            <label for="non-binary">
+                <input type="radio" name="gender" id="non-binary" value="Non-binary">
+                Non-binary
+            </label>
+        </div>
+
+        <div class="contact">
+            <label for="phonenumber">Contact Phone&#58;
+                <input type="text" name="phonenumber" id="phonenumber" placeholder="+31 6 45623419">
+            </label>
+            <label for="email">Contact E&#8208;mail&#58;
+                <input type="text" name="email" id="email" placeholder="sample@gmail.com">
+            </label>
+        </div>
+
+        <div>
+            <label for="membership"><strong>Motorsports Organization Membership&#63;</strong></label>
+            <select name="membership" id="membership">
+                <option value="scca">Sports Car Club of America &#40;SCCA&#41;</option>
+                <option value="nasa">National Autosport Association &#40;NASA&#41;</option>
+                <option value="none">None</option>
+            </select>
+            <label for="prev-experience"><strong>Previous Competitive Experience&#63;</strong></label>
+            <select name="prev-experience" id="prev-experience">
+                <option value="none">None</option>
+                <option value="hpde">HPDE/Track Days</option>
+                <option value="autocross">Autocross</option>
+                <option value="one-year">One Year</option>
+                <option value="two-years">Two Years</option>
+                <option value="over-two-years">Over two years</option>
+            </select>
+            <label for="racing-licence"><strong>Racing License&#63;</strong></label>
+            <select name="racing-licence" id="racing-licence">
+                <option value="none">None</option>
+                <option value="scca">SCCA</option>
+                <option value="nasa">NASA</option>
+                <option value="fia">FIA</option>
+            </select>
+        </div>
+
+        <div class="school">
+            <p><strong>Which elementary schools do you live near&#63;</strong></p>
+            <fieldset class="first-school">
+                <legend><strong>First Closest School&#58;</strong></legend>
+                <div class="left-column">
+                    <label for="aj">
+                        <input type="radio" name="first_school" id="aj" value="aj">
+                        AJ Katzenmaier
+                    </label>
+                    <label for="greenbay">
+                        <input type="radio" name="first_school" id="greenbay" value="greenbay">
+                        Greenbay
+                    </label>
+                    <label for="howard">
+                        <input type="radio" name="first_school" id="howard" value="howard">
+                        Howard A Yeager
+                    </label>
+                </div>
+                <div class="right-column">
+                    <label for="marjorie">
+                        <input type="radio" name="first_school" id="marjorie" value="marjorie">
+                        Marjorie P Hart
+                    </label>
+                    <label for="north">
+                        <input type="radio" name="first_school" id="north" value="north">
+                        North Elementary
+                    </label>
+                    <label for="south">
+                        <input type="radio" name="first_school" id="south" value="south">
+                        South Elementary
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset class="second-school">
+                <legend><strong>Second Closest School&#58;</strong></legend>
+                <div class="left-column">
+                    <label for="aj_2">
+                        <input type="radio" name="second_school" id="aj_2" value="aj">
+                        AJ Katzenmaier
+                    </label>
+                    <label for="greenbay_2">
+                        <input type="radio" name="second_school" id="greenbay_2" value="greenbay">
+                        Greenbay
+                    </label>
+                    <label for="howard_2">
+                        <input type="radio" name="second_school" id="howard_2" value="howard">
+                        Howard A Yeager
+                    </label>
+                </div>
+                <div class="right-column">
+                    <label for="marjorie_2">
+                        <input type="radio" name="second_school" id="marjorie_2" value="marjorie">
+                        Marjorie P Hart
+                    </label>
+                    <label for="north_2">
+                        <input type="radio" name="second_school" id="north_2" value="north">
+                        North Elementary
+                    </label>
+                    <label for="south_2">
+                        <input type="radio" name="second_school" id="south_2" value="south">
+                        South Elementary
+                    </label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="position">
+            <p><strong>What position&#40;s&#41; do you normally play&#63;</strong>&#40;check all that apply&#41;</p>
+            <div class="position-column">
+                <label for="forward1">
+                    <input type="checkbox" id="forward1" name="forward1" value="forward">
+                    Forward
+                </label>
+                <label for="defence1">
+                    <input type="checkbox" id="defence1" name="defence1" value="defence">
+                    Defence
+                </label>
+            </div>
+            <div class="position-column">
+                <label for="midfield1">
+                    <input type="checkbox" id="midfield1" name="midfield1" value="midfield">
+                    Midfield
+                </label>
+                <label for="goalkeeper1">
+                    <input type="checkbox" id="goalkeeper1" name="goalkeeper1" value="goalkeeper">
+                    Goalkeeper
+                </label>
+            </div>
+        </div>
+
+        <div class="position">
+            <p><strong>What position&#40;s&#41; do you want to play&#63;</strong>&#40;check all that apply&#41;</p>
+            <div class="position-column">
+                <label for="forward2">
+                    <input type="checkbox" id="forward2" name="forward2" value="forward">
+                    Forward
+                </label>
+                <label for="defence2">
+                    <input type="checkbox" id="defence2" name="defence2" value="defence">
+                    Defence
+                </label>
+            </div>
+            <div class="position-column">
+                <label for="midfield2">
+                    <input type="checkbox" id="midfield2" name="midfield2" value="midfield">
+                    Midfield
+                </label>
+                <label for="goalkeeper2">
+                    <input type="checkbox" id="goalkeeper2" name="goalkeeper2" value="goalkeeper">
+                    Goalkeeper
+                </label>
+            </div>
+        </div>
+
+        <p>I agree that I will abide by all the rules of the NorCal Time Trial Series &#40;NCTTS&#41;&#8228; I recognize that
+            Motorsports are inherently dangerous&#8228; I hereby release&#8218; discharge&#8218; and/or otherwise indemnify NCTTS&#8218;
+            their employees and associated personnel and volunteers&#8218; including the facilities used for events&#8218;
+            against any claim by or on behalf of the registrant as a result of my participation in the series&#8228;</p>
+        <p>By signing below&#8218; I hereby agree and authorize the above&#8228;</p>
+
+        <div class="declaration">
+            <label for="signature">Registrant&#8242;s Signature&#58;
+                <input type="text" name="signature" id="signature">
+            </label>
+            <label for="date">Date&#58;
+                <input type="text" name="date" id="date">
+            </label>
+        </div>
+
+        <div>
+            <div class="buttons">
+                <button type="submit" value="submit" id="submit">Submit</button> <!--how come this button can open the show_data.html? Where is the connection? Another question; adding value property here changes what?-->
+                <button type="reset" id="reset">Reset</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

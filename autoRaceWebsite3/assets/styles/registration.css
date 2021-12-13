@@ -1,0 +1,145 @@
+body {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+h1 {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    width:90%;
+    margin: 20px auto;
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+}
+
+.text-fields label, .contact label, .position label {
+    display: block;
+    margin-bottom: 10px
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: darkslategrey;
+    background-color: lightcyan;
+    font-family: "Times New Roman";
+}
+
+input:focus {
+    border-color: greenyellow;
+}
+
+.identity input {
+    width: 30%;
+}
+
+#address {
+    width: 70%;
+}
+
+.text-fields input, .contact input {
+    width: 40%;
+}
+
+::placeholder {
+    opacity: 0.3;
+}
+
+.identity {
+    margin-bottom: 10px
+}
+
+#firstname {
+    margin-right: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: lightyellow;
+}
+
+.gender {
+    margin-bottom: 10px;
+}
+
+.school, .position {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden; /* clear: both didn't work for submit and reset buttons */
+}
+
+.school label {
+    display: block;
+}
+
+.school p, .position p {
+    margin: 0 auto 5px auto;
+}
+
+.first-school {
+    width: 45%;
+    float: left;
+    background-color: lightyellow;
+}
+
+.second-school {
+    width: 45%;
+    float: right;
+    background-color: lightyellow;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right; /* I had to put both left and right float to .right-column and .left-column classes. why not one is enough? */
+}
+
+.position-column {
+    width: 15%;
+    float: left;
+}
+
+.declaration label {
+    margin-right: 10px;
+}
+
+#signature {
+    width: 57%;
+}
+
+#submit, #reset {
+    width: 40%;
+    color: lightyellow;
+}
+
+#submit {
+    float: left;
+    background-color: olivedrab;
+}
+
+#reset {
+    float: right;
+    background-color: brown;
+}
+
+.buttons {
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
