@@ -143,3 +143,83 @@ select {
     margin: 0 auto;
 }
 
+body {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.mainTitle {
+    width: 60%;
+    font-size: 60px;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+.main-picture {
+    width: 100%;
+    height: 450px;
+    margin-top: -30px;
+}
+
+.central-nav {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin: 10px auto;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.central-nav a {
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: darkslategray;
+    padding: 10px 50px;
+    text-decoration: none;
+    border: 1px solid #000000
+}
+
+.central-nav a:active {
+    background-color: green;
+}
+
+.central-nav a:hover:not(:active) {
+    background-color: #555;
+}
+
+.logo {
+    float: right;
+    width: 100px;
+}
+
+.sub-title {
+    width: 24%;
+    height: 50px;
+    font-size: 40px;
+    border-bottom: 1px solid #000000;
+}
+
+dt {
+    display: list-item;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+dd {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 20px;
+}
